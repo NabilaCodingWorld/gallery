@@ -1,0 +1,47 @@
+@import url('https://fonts.maateen.me/ekushey-lohit/font.css');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'EkusheyLohit', Arial, sans-serif !important;
+}
+
+.image{
+    display: inline-block;
+    text-align: center;
+    width: 33%;
+    float: left;
+}
+
+
+figure{
+    
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+.image img{
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.image #zoom-In img {
+    transform: scale(1);
+    transition: 0.5s ease-in-out; 
+}
+
+.image #zoom-In:hover img {
+    transform: scale(1.5);
+}
+
+h1{
+    text-align: center;
+}
+
+.myBorder{
+    padding: 20px;
+    overflow-y: scroll;
+    height: 100px;
+    margin: 10px;
+}
